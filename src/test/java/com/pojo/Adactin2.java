@@ -26,9 +26,21 @@ public class Adactin2 extends Base {
 	@FindBy(id="Submit")
 	private WebElement Submit;
 	
+	public WebElement getLoct1() {
+		return location;
+	}
+	
+	public WebElement getLocc() {
+		return location;
+	}
+	
+	public WebElement getLocat() {
+		return location;
+	}
 	public WebElement getLocation() {
 		return location;
 	}
+	
 	public WebElement getHotels() {
 		return hotels;
 	}
