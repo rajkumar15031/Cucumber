@@ -48,14 +48,14 @@ public class Adactin2 extends Base {
 		return Submit;
 	}
 	public void searchHotel(String string,String string2,String string3,String string4,String string5,String string6) {
-	selectByVisibleText(getLocation(), string);
-	selectByVisibleText(getHotels(), string2);
-	selectByVisibleText(getRoom_type(), string3);
-	selectByVisibleText(getRoom_nos(), string4);
+	selectByVisibleText(getLocation(), string2);
+	selectByVisibleText(getHotels(), string);
+	selectByVisibleText(getRoom_type(), string4);
+	selectByVisibleText(getRoom_nos(), string3);
 	selectByVisibleText(getAdult_room(), string5);
 	selectByVisibleText(getChild_room(), string6);
 	click(getSubmit());
-		
+		System.out.println("Anand");
 	}
 	
 
