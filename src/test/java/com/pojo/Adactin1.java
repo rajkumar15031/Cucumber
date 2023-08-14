@@ -16,6 +16,8 @@ public class Adactin1 extends Base {
 	private WebElement userPassword;
 	@FindBy(id="login")
 	private WebElement logIn ;
+
+//done
 	
 	public WebElement getUserName() {
 		return userName;
